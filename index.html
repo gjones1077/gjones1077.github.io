@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/scripts.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<header>
+
+    <nav class="same-line">
+        <div class="topnav left">
+            <a href="#home">Gabriel Jones</a>
+        </div>
+        <div class="topnav right">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#project">Projects</a>
+            <!-- <a href="#about">About</a> -->
+        </div>
+    </nav>
+</header>
+
+<body>
+    <section id="home">
+
+        <div class="same-line-panel">
+            <img src="img/profile.png" alt="logo" width="200" height="200">  
+            <!-- this was the only way I could get the image to show up -->
+            <div class="center">
+                <h1>Gabriel Jones</h1>
+                <h2>Undergraduate Student</h2>
+                <h3>Computer Science</h3>
+            </div>
+
+        </div>
+    </section>
+    <section id="about">
+        <div class="container">
+            <h1 class="section-header">About Me</h1>
+        </div>
+        <div class="same-line-panel reveal">
+<!-- <img id="logo" src=logo.png> -->
+            <div class="panel">
+                <p>My favorite number is 7 because I have 7 letters in my name and I was born the 7/7 </p>
+            </div>
+
+        </div>
+    </section>
+    <section id="project">
+        <div class="container">
+            <h1 class="section-header">Projects</h1>
+            <div class="row">
+                <div class="column reveal" style="background-color:#A4969B;">
+                    <h2>Super Market App</h2>
+                    <p>Application that allows users to buy food online using a server.
+                       The server will allow users to see the current inventory along with
+                       current sales if any on items. Information about items in inventory stored
+                       in JSON files that server will access.
+                    </p>
+                </div>
+                <div class="column reveal" style="background-color:#BFB5B9;">
+                    <h2>Video Effects with Cuda</h2>
+                    <p>In this project I implemented convolutions with image kernels on a video file.
+                        The image kernels were used for blurring and edge detection effects. Basically
+                        each pixel has an image kernel applied to it through each frame in a video using threads
+                        on the gpu allocated in user defined blocks. The kernel accounts for when there are more pixels 
+                        than threads available on the GPU with striding.
+                    </p>
+                </div>
+                <div class="column reveal" style="background-color:#D1CACD;">
+                    <h2>NBA Central Division Database </h2>
+                    <p> With a group of 4 others, we created a database for every team in the NBA central division. For each of these teams we created 
+                        five tables: players, stats, physical attributes, history and contracts. These tables provided crucial information about each team and
+                        the players that are on that team. The database can be used to analyze which players had the best
+                        statistics from the past season as well as what players were the best return on their salary.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Autograder Comment --><!-- Autograder Comment --></body>
+<footer>
+    <div class="leftFooter">
+        gjones10@umd.edu
+    </div>
+    <div class="rightFooter">
+        <a href="https://github.com/gjones1077" class="fa fa-github" style="font-size:36px"></a>
+
+    </div>
+    <div class="rightFooterr">
+        <a href="https://www.instagram.com/gsj_77/" class="fa fa-instagram" style="font-size:36px"></a>
+
+    </div>
+    <div class = rightFooterr>
+        <a href="https://www.youtube.com/ddrippedd/" class="fa fa-youtube" style="font-size:36px"></a>
+    </div>
+</footer>
+</footer>
+
+</html>
